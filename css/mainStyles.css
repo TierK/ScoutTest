@@ -1,0 +1,793 @@
+/*......custom styles.........*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+time{
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	padding-inline-start: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.clearfix:before {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.header-buckground,
+a,
+.humble-content-circle {
+	color: white;
+  font-weight: 900;
+}
+
+.upper,
+button,
+h3 {
+	text-transform: uppercase;
+}
+
+
+h5, 
+time,
+button,
+h3,
+h1,
+.menu,
+.button,
+li>a,
+logo
+{
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.bold,
+.humble-content-circle {
+	font-weight: 900;
+}
+
+.black {}
+
+.hidden {
+	visibility: hidden;
+}
+
+h4,
+h6,
+.home-welcome,
+.article-subtitle 
+.header-buckground p{
+	font-family: 'Fira Sans', sans-serif;
+	font-style: italic;
+}
+
+h4 {
+	font-size: 20px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.article-description {
+	font-family: 'Fira Sans', sans-serif;
+  
+}
+
+.title,
+.article-title {
+	font-weight: bold;
+	color: black;
+}
+
+.subtitle,
+.article-description,
+.team-discription,
+.article-subtitle,
+.footer-copyright,
+.header-buckground p
+{
+	color: #777777;
+  
+}
+
+
+/*..........................*/
+
+
+/*........imports..........*/
+
+/*.....................*/
+
+
+/*....main container.........*/
+
+.nav-width,
+.services-block,
+.services,
+.logos,
+.logo,
+.contact-wrapper,
+.footer,
+.wrapper,
+.team-wrapper {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.main-container,
+.contactus {
+	margin: auto;
+	padding: auto;
+}
+
+/************* nav + logo ***********/
+
+
+
+.header-buckground {
+	background: url(https://image.ibb.co/hZmB1U/statya.png) no-repeat center top ;
+  opacity: 0.8;
+}
+
+.logo-conteiner{
+  padding: 10px;
+  padding-top: 30px;
+  width: 900px;
+  height: 60px;
+}
+
+.thule-logo img{
+  display: inline-block;
+  padding-left: 270px;
+}
+
+.img{
+  width: 200px;
+  hight: auto;
+}
+
+.scout-logo {
+	font-size: 76px;
+  color: black;
+  font-family: 'Fira Sans', sans-serif;
+  font-width: 900;
+  margin-left: 15px;
+  margin-top- 15px;
+  display: inline-block;
+}
+
+.home-intro,
+.contactus-title
+{
+
+  width: auto;
+  height: auto;
+  color: white;
+  background: black;
+  border-radius: 3px;
+  opacity: 0.7;
+  padding: 5px;
+  font-family: 'Fira Sans', sans-serif;
+  font-width: 900;
+  text-align: center;
+}
+
+.menu {
+  display: inline-block;
+	float: right;
+	text-align: center;
+}
+
+.scout-logo p{
+  display: inline-block;
+  font-size: 17px;
+  font-width: 400;
+  font-style: italic;
+}
+
+
+.menu-item li a{
+  padding: 10px;
+}
+
+.menu-item li
+{
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background: black;
+  border-radius: 6px;
+  opacity: 0.9;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.nav-width{
+  padding-top: 0px;
+  padding-bottom: 240px;
+}
+
+
+.home-welcome {
+	font-size: 45px;
+	font-width: normal;
+  z-index: 10;
+
+}
+
+
+.home-intro {
+	margin: 160px;
+  font-size: 45px;
+}
+
+.button {
+	border-radius: 3px;
+	background-color: #fed136;
+	display: inline-block;
+	width: 240px;
+	padding: 21px 0;
+}
+
+.button:hover {
+	background-color: #777777;
+	color: #fed136;
+	opacity: 0.5;
+}
+
+.home-tellmemore,
+.humble-content-circle,
+.contactus-button,
+.circle-demo {
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+	font-size: 18px;
+	font-width: 700;
+	text-align: center;
+}
+
+.home-tellmemore{
+  margin-bottom: 150px;
+  text-align: center;
+  
+}
+/*.....................*/
+
+
+/*.......about as.........*/
+
+.services-block {
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+  margin-bottom: 80px;
+}
+
+.services-article {
+	display: inline-block;
+	width: 33%;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: top;
+	margin: auto;
+	padding-top: 0;
+}
+
+.article-title {
+	font-size: 18px;
+}
+
+.article-description {
+	font-size: 14px;
+}
+
+.subtitle,
+.title {
+	top: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	padding-top: 120px;
+}
+
+.subtitle {
+	padding-bottom: 80px;
+}
+
+.services-sprite{
+	display: inline-block;
+	background-image: url(https://image.ibb.co/fHmBbK/Service_sprite.png);
+	background-repeat: no-repeat;
+	width: 80px;
+  height: 80px;
+	text-align: center;
+}
+
+.e-commerce-circle {
+	background-position: -340px 0px;
+}
+
+.e-commerce-circle:hover{
+	background-position: -10px 0;
+}
+
+.responsive-web-circle{
+  background-position: -430px 0px;
+}
+
+.responsive-web-circle:hover{
+  background-position: -100px 0;
+}
+
+.web-security-circle{
+  background-position: -520px 0px;
+}
+
+.web-security-circle:hover{
+  background-position: -190px 0;
+}
+
+/*.....................*/
+
+
+/*......gallery..........*/
+
+.portfolio {
+	margin: auto;
+  /* border: 4px solid blue; */
+}
+.gallery-background{
+background: url(https://image.ibb.co/mhjygU/Laptop_Backpacks_2000x320_Header_Aug2017.jpg) no-repeat center top / cover;
+	text-align: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.portfolio-gallery-row1-item,
+.portfolio-gallery-row2-item {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 33%;
+	text-align: center;
+	vertical-align: top;
+ /* border: 4px solid blue; */
+  margin-bottom: 55px;
+  margin-top: 0px;
+  
+}
+
+.portfolio-gallery-row1-item>img,
+.portfolio-gallery-row2-item>img{
+  padding-bottom: 20px;
+
+} 
+
+.portfolio-gallery-row2-item{
+   margin-bottom: 120px;
+}
+
+.demo {
+	width: 291px;
+	height: 300px;
+  /* border: 4px solid blue; */
+  
+}
+
+.article-subtitle {
+	font-size: 17px;
+}
+
+
+/*.....................*/
+
+
+/*....Other Products.....................*/
+
+.aboutus-column {
+	display: inline-block;
+	height: 1400px;
+	text-align: center;
+  margin-top: 10px;
+	/*border: 4px solid green; */
+}
+
+.aboutus-column:after {
+/*	background-image: url(); */
+	background-size: 5px;
+	position: absolute;
+	content: '';
+	display: block;
+	width: 5px;
+	left: 50%;
+	margin-left: -2px;
+	top: 290px;
+	bottom: 58px;
+	/* border: 4px solid yellow; */
+	z-index: 0;
+}
+
+.aboutus-head {
+	height: 265px;
+	background: none;
+	/* border: 4px solid brown; */
+}
+
+.aboutus-block {
+	position: relative;
+	box-sizing: border-box;
+	margin: auto;
+	padding: auto;
+	text-align: auto;
+	height: 1681px;
+	width: 900px;
+	/* border: 4px solid blue; */
+}
+
+.column {
+	position: relative;
+	display: block;
+	vertical-align: center;
+	width: 545px;
+	margin-bottom: 70px;
+	z-index: 10;
+	/* border: 4px solid blue; */ 
+}
+
+.column :last-child {
+	margin-bottom: 0;
+}
+
+.left {
+	float: left;
+	text-align: right;
+}
+
+.right {
+	float: right;
+	text-align: left;
+}
+
+.team-discription {
+	font-size: 18px;
+	width: 595px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.circle-demo {
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 7px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.circle-container {
+	border-width: 7px;
+	border-color: rgb(241, 241, 241);
+	border-radius: 50%;
+	width: 186px;
+	height: 186px;
+}
+
+.aboutus-column-circle {
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+	border-style: solid;
+	border-width: 7px;
+	border-color: rgb(241, 241, 241);
+	border-radius: 50%;
+	background-color: rgb(254, 209, 54);
+	width: 184px;
+
+}
+
+.content-container {
+	display: inline-block;
+	width: 300px;
+	line-height: 1.45;
+	float: right;
+  padding-right: 15px;
+   
+}
+
+.humble-content,
+.darkdays-content {
+	float: left;
+}
+
+.last-child {
+	display: inline-block;
+	text-align: center;
+}
+
+.circle-last-child {
+	background-color: black;
+	text-align: center;
+	line-height: 1.2;
+	font-size: 18px;
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.last-child .circle-container {
+	margin: 0 auto;
+}
+
+.circle-text-conteiner {
+	width: 105px;
+	height: 92px;
+	padding-top: 66px;
+	padding-bottom: 36px;
+	padding-left: 36px;
+  
+}
+
+.botton-aboutus {
+	display: block;
+	width: 240px;
+	height: 65px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	margin-top: 66px;
+	padding-bottom: 100px;
+}
+
+
+/*...........................................*/
+
+/*...........Partners..........*/
+
+.logos {
+	padding-bottom: 40px;
+	margin: auto;
+}
+
+.logo-background{
+background: url(https://image.ibb.co/chOr1U/Hydration_Backpack_2000_X320_Header_Jan2018.jpg) no-repeat center top / cover;
+	text-align: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+
+  }
+  
+
+.partners-logos{
+  position: relative;
+}
+
+.logos-item {
+	display: inline-block;
+	padding-right: 35px;
+
+}
+
+
+/*.....................*/
+
+
+/*.....Contact Us..........*/
+
+.contactus {
+	background: url(https://image.ibb.co/i1ELvp/Thule_Crossover_Collection_header_2000x320_Apr2017.jpg) no-repeat center top;
+	text-align: center;
+}
+
+.contactus-title{
+  padding: 10px;
+  margin-top: 100px;
+}
+
+
+.social-icons li {
+	display: inline-block;
+	margin: auto;
+	padding: 0;
+}
+
+
+.contactus-subtitle {
+	color: #777777;
+}
+
+.form-plus-button {
+	
+}
+
+.contactus-form {
+	display: inline-block;
+	height: 220px;
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+fieldset {
+	vertical-align: top;
+	border: none;
+	width: 50%;
+	height: 210px;
+	padding: 0;
+	margin: 0;
+}
+
+input {
+	width: 410px;
+	height: 50px;
+	margin: 10px;
+}
+
+.contactus-form-left {
+	float: left;
+	margin: auto;
+}
+
+.contactus-form-right {
+	float: right;
+	margin: auto;
+}
+
+.contactus-form-left-textarea {
+	border-radius: 5px;
+	margin: 0 0 23px 0;
+}
+
+.contactus-form-left-textarea:last-child {
+	margin-bottom: 0;
+}
+
+.contactus-form-right-message {
+	border-radius: 5px;
+	width: 410px;
+	height: 193px;
+	margin: 0;
+}
+
+.contactus-button {
+	display: inline-block;
+	margin: 0 auto;
+
+}
+
+.contactus-form-left-textarea,
+.contactus-form-right-message {
+	font-size: 14px;
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(187, 187, 187);
+	font-weight: bold;
+	text-transform: uppercase;
+  
+
+}
+
+.contactus-form-right-message {
+	padding-top: 17px;
+	font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+input {
+	padding-right: 20px;
+  padding-left: 20px;
+  
+}
+
+
+/*.....................*/
+
+
+/*.......Bottom Footer........*/
+
+.footer {
+	display: block;
+	margin: 0 auto;
+	padding: 28px;
+}
+
+.footer-block {
+	display: inline-block;
+	width: auto;
+	box-sizing: border-box;
+	padding-right: 40px;
+}
+
+.footer-icons {
+	display: inline-block;
+	margin: 0 auto;
+  padding-left: 95px
+}
+
+.footer-copyright {
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(85, 85, 85);
+	line-height: 1.571;
+	font-weight: bold;
+	float: left;
+}
+
+.footer-sprite {
+	display: inline-block;
+	background-image: url(https://image.ibb.co/i1mUrK/social_sprint_Footer.jpg);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+.twitter {
+	background-position: -0px -54px;
+}
+
+.facebook {
+	background-position: -50px -54px;
+}
+
+.pinterest {
+	background-position: -100px -54px;
+}
+
+.googleplus {
+	background-position: -150px -54px;
+}
+
+.twitter:hover {
+	background-position: -0px -0px;
+}
+
+.facebook:hover {
+	background-position: -50px -0px;
+}
+
+.pinterest:hover {
+	background-position: -100px -0px;
+}
+
+.googleplus:hover {
+	background-position: -150px -0px;
+}
+
+
+/*.....................*/
