@@ -40,7 +40,7 @@ body {
 .header-buckground,
 a,
 .humble-content-circle {
-	color: white;
+	color: #9fd6dd;
   font-weight: 900;
 }
 
@@ -151,20 +151,25 @@ h3 {
 
 
 .header-buckground {
-	background: url(https://image.ibb.co/hZmB1U/statya.png) no-repeat center top ;
-  opacity: 0.8;
+	background: url(https://image.ibb.co/mMtBXe/head.png) no-repeat center top ;
+  
+}
+
+.header-buckground-shadow{
+  margin-top: 120px;
 }
 
 .logo-conteiner{
   padding: 10px;
-  padding-top: 30px;
   width: 900px;
   height: 60px;
+
 }
 
 .thule-logo img{
   display: inline-block;
-  padding-left: 270px;
+  padding-left: 300px;
+  position: absolute;
 }
 
 .img{
@@ -173,12 +178,13 @@ h3 {
 }
 
 .scout-logo {
+  position: absolute;
 	font-size: 76px;
   color: black;
   font-family: 'Fira Sans', sans-serif;
   font-width: 900;
-  margin-left: 15px;
-  margin-top- 15px;
+  margin-left: 30px;
+  margin-top: -50px;
   display: inline-block;
 }
 
@@ -188,32 +194,33 @@ h3 {
 
   width: auto;
   height: auto;
-  color: white;
+  color: #9fd6dd;
   background: black;
   border-radius: 3px;
   opacity: 0.7;
   padding: 5px;
   font-family: 'Fira Sans', sans-serif;
   font-width: 900;
-  text-align: center;
+  text-align: center;  
 }
 
 .menu {
   display: inline-block;
 	float: right;
 	text-align: center;
+
 }
 
 .scout-logo p{
-  display: inline-block;
-  font-size: 17px;
+
+  font-size: 15px;
   font-width: 400;
-  font-style: italic;
+  padding-left: 280px;  
 }
 
 
 .menu-item li a{
-  padding: 10px;
+  padding: 15px;
 }
 
 .menu-item li
@@ -222,8 +229,7 @@ h3 {
   width: auto;
   height: auto;
   background: black;
-  border-radius: 6px;
-  opacity: 0.9;
+  border-radius: 3px;
   text-align: center;
   padding: 5px 0;
 }
@@ -231,6 +237,8 @@ h3 {
 .nav-width{
   padding-top: 0px;
   padding-bottom: 240px;
+  margin-top: -120px;
+  margin-right: 60px;
 }
 
 
@@ -238,13 +246,19 @@ h3 {
 	font-size: 45px;
 	font-width: normal;
   z-index: 10;
+  padding-top: 100px;
 
 }
 
 
 .home-intro {
-	margin: 160px;
+	margin: 100px;
   font-size: 45px;
+  width: auto;
+}
+
+.home-title .home-intro{
+  margin-top: 200px;
 }
 
 .button {
@@ -266,17 +280,13 @@ h3 {
 .contactus-button,
 .circle-demo {
 	font-family: 'Fira Sans', sans-serif;
-	color: white;
+	color: #9fd6dd;
 	font-size: 18px;
 	font-width: 700;
 	text-align: center;
 }
 
-.home-tellmemore{
-  margin-bottom: 150px;
-  text-align: center;
-  
-}
+
 /*.....................*/
 
 
@@ -286,7 +296,7 @@ h3 {
 	box-sizing: border-box;
 	margin: auto;
 	text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 180px;
 }
 
 .services-article {
@@ -324,10 +334,10 @@ h3 {
 
 .services-sprite{
 	display: inline-block;
-	background-image: url(https://image.ibb.co/fHmBbK/Service_sprite.png);
+	background-color: black;
 	background-repeat: no-repeat;
-	width: 80px;
-  height: 80px;
+	width: 180px;
+  height: 180px;
 	text-align: center;
 }
 
@@ -387,7 +397,7 @@ background: url(https://image.ibb.co/mhjygU/Laptop_Backpacks_2000x320_Header_Aug
 
 .portfolio-gallery-row1-item>img,
 .portfolio-gallery-row2-item>img{
-  padding-bottom: 20px;
+
 
 } 
 
@@ -541,7 +551,7 @@ background: url(https://image.ibb.co/mhjygU/Laptop_Backpacks_2000x320_Header_Aug
 	line-height: 1.2;
 	font-size: 18px;
 	font-family: 'Fira Sans', sans-serif;
-	color: white;
+	color: #9fd6dd;
 	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 1.4;
@@ -557,7 +567,7 @@ background: url(https://image.ibb.co/mhjygU/Laptop_Backpacks_2000x320_Header_Aug
 	height: 92px;
 	padding-top: 66px;
 	padding-bottom: 36px;
-	padding-left: 36px;
+	padding-left: 43px;
   
 }
 
@@ -614,9 +624,14 @@ background: url(https://image.ibb.co/chOr1U/Hydration_Backpack_2000_X320_Header_
 
 .contactus-title{
   padding: 10px;
-  margin-top: 100px;
+  width: 650px;
+  text-align: center;
+  display: inline-block;
 }
 
+.contact-wrapper{
+  padding-top: 70px;
+}
 
 .social-icons li {
 	display: inline-block;
@@ -627,28 +642,8 @@ background: url(https://image.ibb.co/chOr1U/Hydration_Backpack_2000_X320_Header_
 
 .contactus-subtitle {
 	color: #777777;
-}
-
-.form-plus-button {
-	
-}
-
-.contactus-form {
-	display: inline-block;
-	height: 220px;
-	box-sizing: border-box;
-	margin: auto;
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-fieldset {
-	vertical-align: top;
-	border: none;
-	width: 50%;
-	height: 210px;
-	padding: 0;
-	margin: 0;
+  padding: 20px;
+  padding-bottom: 120px;
 }
 
 input {
@@ -656,63 +651,6 @@ input {
 	height: 50px;
 	margin: 10px;
 }
-
-.contactus-form-left {
-	float: left;
-	margin: auto;
-}
-
-.contactus-form-right {
-	float: right;
-	margin: auto;
-}
-
-.contactus-form-left-textarea {
-	border-radius: 5px;
-	margin: 0 0 23px 0;
-}
-
-.contactus-form-left-textarea:last-child {
-	margin-bottom: 0;
-}
-
-.contactus-form-right-message {
-	border-radius: 5px;
-	width: 410px;
-	height: 193px;
-	margin: 0;
-}
-
-.contactus-button {
-	display: inline-block;
-	margin: 0 auto;
-
-}
-
-.contactus-form-left-textarea,
-.contactus-form-right-message {
-	font-size: 14px;
-	font-family: 'Fira Sans', sans-serif;
-	color: rgb(187, 187, 187);
-	font-weight: bold;
-	text-transform: uppercase;
-  
-
-}
-
-.contactus-form-right-message {
-	padding-top: 17px;
-	font-size: 16px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-input {
-	padding-right: 20px;
-  padding-left: 20px;
-  
-}
-
 
 /*.....................*/
 
@@ -735,7 +673,7 @@ input {
 .footer-icons {
 	display: inline-block;
 	margin: 0 auto;
-  padding-left: 95px
+
 }
 
 .footer-copyright {
@@ -746,6 +684,7 @@ input {
 	line-height: 1.571;
 	font-weight: bold;
 	float: left;
+  padding-left: 350px
 }
 
 .footer-sprite {
