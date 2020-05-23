@@ -1,0 +1,146 @@
+@import './mobile-menu-btn.css';
+
+/**********custom styles*****/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+time{
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	padding-inline-start: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.mark{
+	color: rgb(13, 162, 252);
+	text-transform: inherit;
+	animation-name: spin;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear; 
+	/* transform: rotate(3deg); */
+	 /* transform: rotate(0.3rad);/ */
+	 /* transform: rotate(3grad); */ 
+	 /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+	  from {
+		  transform:rotate(0deg);
+	  }
+	  to {
+		  transform:rotate(360deg);
+	  }
+  }
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.clearfix:before {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.upper,
+button,
+h3 {
+	text-transform: uppercase;
+}
+
+
+/**********menu**********/
+nav.menu{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	color: black;
+	font-size: 18px;
+	font-weight: 500;
+	
+}
+
+.menu ul{	
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+    -webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.1);
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.1);
+    -webkit-transition: top .4s;
+    -o-transition: top .4s;
+	transition: top .4s;
+	width: 70%;
+}
+
+.mobile-menu{
+	display: none;
+	align-self: flex-end;
+	width: 20%;
+}
+
+
+@media screen and (max-width: 800px) {
+	ul.menu-list{
+		display: none;
+	}
+
+	.mobile-menu{
+		display: block;
+	}
+
+	.mobile-menu:hover ul{
+		display: block;
+		z-index: 999;
+		flex-direction: column;
+		background: black;
+	}
+  }
+
+/************* logo ***********/
+
+
+.scout-logo{
+	height: 30px;
+	display: flex;
+	margin: 20px 0 20px 20px;
+}
+
+.scout-logo a{
+	font-size: 20px;
+	font-weight: 600;
+	margin:0;
+}
+
+.scout-logo span{
+	font-size: 10px;
+	align-self: flex-end;
+}
+
+
+.header-buckground {
+	background: url(https://image.ibb.co/mMtBXe/head.png) no-repeat center / top;
+	height: 400px;
+}
