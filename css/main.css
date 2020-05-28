@@ -23,7 +23,7 @@ li {
 }
 
 a {
-	color: #000;
+	color: inherit;
 	text-decoration: none;
 }
 
@@ -53,9 +53,11 @@ a {
 
 
 body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	position: relative;
 }
 
 .clearfix:before {
@@ -68,6 +70,24 @@ body {
 button,
 h3 {
 	text-transform: uppercase;
+}
+
+
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+section h1{
+	font-size: 40px;
+	font-weight: 800;
+	margin: 20px;
 }
 
 
@@ -102,7 +122,7 @@ nav.menu{
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
 	ul.menu-list{
 		display: none;
 	}
@@ -119,6 +139,41 @@ nav.menu{
 	}
   }
 
+/************mobile menu********/
+
+.mobile-menu-container{
+	z-index: 999;
+	background-color: black;
+	display: flex;
+	position: absolute;
+	margin: 0 auto;
+	align-items: center;
+	justify-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.mobile-menu-list{
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	width: inherit;
+	height: inherit;
+}
+
+.mobile-menu-list>li{
+	color: rgb(33, 170, 255);
+	transition: all 0.4s;
+	padding: 3px;
+}
+
+.mobile-menu-list>li:hover{
+	color: white;
+	transition: all 0.4s;
+}
+
+
 /************* logo ***********/
 
 
@@ -126,10 +181,11 @@ nav.menu{
 	height: 30px;
 	display: flex;
 	margin: 20px 0 20px 20px;
+	font-family: monospace;
 }
 
 .scout-logo a{
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 600;
 	margin:0;
 }
@@ -140,7 +196,45 @@ nav.menu{
 }
 
 
-.header-buckground {
-	background: url(https://image.ibb.co/mMtBXe/head.png) no-repeat center / top;
-	height: 400px;
+
+.weber-logo img{
+	width: 20rem;
+	margin: 20px 20px 20px 40px;
+}
+
+/************section grill ***********/
+
+
+.box-container{
+	display:flex;
+	justify-content: space-between;
+	width: 80%;
+	height: auto;
+}
+
+.box-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 5px;
+	padding: 5px;
+	min-width: 170px;
+	box-shadow: 1px 1px 4px 0.5px rgba(119, 119, 119, 0.64);
+	
+}
+
+
+.box-item img{
+	width: 100%;
+	height: auto;
+}
+
+
+@media screen and (max-width: 800px) {
+	.box-container{
+		flex-wrap: wrap;
+	}
+	.box-item{
+		flex-direction: row;
+	}
 }
