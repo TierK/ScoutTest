@@ -1,0 +1,59 @@
+body{
+    overflow-x: hidden;
+}
+
+.video{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+
+}
+
+.video video{
+    width: 100vw;
+    height: auto;
+}
+
+.video video source{
+    width: 100vw;
+    height: auto;
+}
+
+.header-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+}
+
+.header-down a em{
+    font-weight: 600;
+    border-radius: 50%;
+    border: 1px solid rgb(13, 162, 252);
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 800px) {
+	.video{
+        width: 100vw;
+        height: 80vh;
+        overflow: hidden;
+    }
+    
+    .video video{
+        height: 80vh;
+        width: auto;
+        
+    }
+    
+    .video video source{
+        height: 80vh;
+        width: auto;
+        
+    }
+	
+}

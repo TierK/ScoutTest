@@ -7,6 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>SCOUT The Best Weber Grills </title>
    <link href="css/main.css" rel="stylesheet">
+   <link href="css/video-header.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,900&amp;subset=cyrillic,cyrillic-ext"
       rel="stylesheet">
 </head>
@@ -43,14 +44,17 @@
             <li><a href="#aboutus-block">Contacts</a></li>
          </ul>
       </div>
-      <div class="logo-container">
-         <div class="weber-logo logo">
-            <img class="img" src="imgs/weber-logo.png" alt="Weber-logo">
-         </div>
-      </div>
+      <section class="video">
+         <video autoplay muted loop id="videobg">
+             <source src="video/header.mp4" type="video/mp4">
+           </video>
+     </section>
+     <div class="header-down">
+      <a href="#grills"><em class="mark">More</em></a>
+   </div>
    </header>
    <main>
-      <section class="grills">
+      <section class="grills" id="grills">
          <h1>Our Grills</h1>
          <div class="box-container">
             <div class="box-item">
@@ -59,7 +63,7 @@
                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque natus reiciendis nostrum at totam est vero, quasi inventore quos quo recusandae sint</p>
                </div>
                <div class="img-container">
-                  <img src="imgs/weber1.png" alt="grill">
+                  <img src="images/weber1.png" alt="grill">
                </div>
             </div>
             <div class="box-item">
@@ -68,7 +72,7 @@
                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque natus reiciendis nostrum at totam est vero, quasi inventore quos quo recusandae sint</p>
                </div>
                <div class="img-container">
-                  <img src="imgs/weber2.png" alt="grill">
+                  <img src="images/weber2.png" alt="grill">
                </div>
             </div>
             <div class="box-item">
@@ -77,12 +81,12 @@
                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque natus reiciendis nostrum at totam est vero, quasi inventore quos quo recusandae sint</p>
                </div>
                <div class="img-container">
-                  <img src="imgs/weber3.png" alt="grill">
+                  <img src="images/weber3.png" alt="grill">
                </div>
             </div>
          </div>
       </section>
    </main>
-   <script src="script/main.js"></script>
+   <script src="js/main.js"></script>
 </body>
 </html>

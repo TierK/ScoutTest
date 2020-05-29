@@ -34,10 +34,6 @@ a {
 	animation-duration: 5000ms;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear; 
-	/* transform: rotate(3deg); */
-	 /* transform: rotate(0.3rad);/ */
-	 /* transform: rotate(3grad); */ 
-	 /* transform: rotate(.03turn);  */
   }
   
   @keyframes spin {
@@ -106,7 +102,7 @@ nav.menu{
 .menu ul{	
 	display: flex;
 	justify-content: space-around;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0);
     -webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.1);
     box-shadow: 0 2px 1px -1px rgba(0,0,0,.1);
     -webkit-transition: top .4s;
@@ -195,12 +191,6 @@ nav.menu{
 	align-self: flex-end;
 }
 
-
-
-.weber-logo img{
-	width: 20rem;
-	margin: 20px 20px 20px 40px;
-}
 
 /************section grill ***********/
 
