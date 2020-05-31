@@ -227,4 +227,8 @@ nav.menu{
 	.box-item{
 		flex-direction: row;
 	}
+
+	nav.menu{
+		justify-content: space-evenly;
+	}
 }
